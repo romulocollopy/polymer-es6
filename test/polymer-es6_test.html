@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>polymer-es6 test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../polymer-es6.html">
+  </head>
+  <body>
+
+    <test-fixture id="basic">
+      <template>
+        <polymer-es6></polymer-es6>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('polymer-es6', function() {
+
+        test('instantiating the element works', function() {
+          let element = fixture('basic');
+          assert.equal(element.is, 'polymer-es6');
+        });
+
+      });
+    </script>
+  </body>
+</html>
