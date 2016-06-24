@@ -2,7 +2,8 @@ class PolymerES6Element {
 
     beforeRegister() {
         this.is = 'polymer-es6';
-        this.properties = this.get_properties()
+        this.properties = this.get_properties();
+        this.extends = 'table';
     }
 
     get_properties () {

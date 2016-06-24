@@ -4,8 +4,28 @@
     <link rel="import" href="polymer-es6.css" type="css">
 
     <template>
-        <h2>Hello [[name]], [[compliment]]</h2>
-        <span>[[liked_it]]</span>
+        <thead>
+            <tr>
+                <th>Plan template</th>
+                <th>Required documents</th>
+                <th colspan="2">Additional documents</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Meow</td>
+                <td>
+                    <ul>
+                        <li>Cats</li>
+                        <li>Kittens</li>
+                    </ul>
+                </td>
+                <td>Furry Animals</td>
+                <td><button>prrrr</button></td>
+            </tr>
+            <content>
+            </content>
+        </tbody>
     </template>
 
     <script src="polymer-es6.js" type="text/javascript"></script>

@@ -2,6 +2,12 @@
     display: block;
 }
 
-h2 {
+th {
     color: rgba(0, 99, 45, 255);
 }
+
+tr {
+    text-align: left;
+}
+
+
